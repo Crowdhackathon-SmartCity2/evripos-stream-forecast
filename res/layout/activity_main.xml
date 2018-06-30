@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/AbsoluteLayout1" 
+	android:layout_width="wrap_content"
+	android:keepScreenOn="true" 
+	android:layout_height="fill_parent"
+	style="?android:attr/buttonBarButtonStyle"
+	android:background="#003399">
+
+					<EditText 
+					    android:id="@+id/FTxt" 
+					    android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						 android:editable="false"
+						 android:layout_marginTop="-9dp"
+						android:gravity="left" 
+						android:textSize="18sp"
+						android:textColor="#ffff00" />	
+					<EditText 
+					    android:id="@+id/F2Txt" 
+					    android:layout_width="wrap_content"
+					    android:layout_below="@+id/FTxt" 
+						android:layout_height="wrap_content"
+						 android:layout_marginTop="-9dp"
+						 android:textSize="18sp"
+						  android:editable="false"
+						android:gravity="left" 
+						android:textColor="#ffff00" />	
+
+			<ImageView 
+						android:id="@+id/Image1" 
+						android:layout_marginStart="0dp"
+						android:layout_marginLeft="0dp"
+			    		android:layout_marginTop="0dp"
+			    		android:layout_below="@+id/F2Txt" 
+					    android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+	    				android:src="@drawable/map">
+	    
+			</ImageView>
+	              <LinearLayout  
+        android:layout_height="wrap_content"  
+        android:layout_width="fill_parent" 
+        android:gravity = "center_horizontal"
+        android:layout_below="@+id/Image1" 
+        android:id="@+id/loginButtonLayout"
+        android:weightSum="1.0">  "
+	            <Button
+	                android:id="@+id/BuUp"
+	            android:layout_height="match_parent"
+	            android:layout_width="wrap_content"
+	                android:textSize="18sp"
+	                android:text="Ημερ/νία"
+	                android:gravity="left" 
+	                android:textColor="#ffff00" />
+	            <Button
+	                android:id="@+id/BuDown"
+	            android:layout_height="match_parent"
+	            android:layout_width="wrap_content"
+	                android:textSize="18sp"
+	                android:text="Ώρα"
+	                android:gravity="left" 
+	                android:textColor="#ffff00" />
+	            <Button
+	                android:id="@+id/BuPhase"
+	            android:layout_height="match_parent"
+	            android:layout_width="wrap_content"
+	                android:textSize="18sp"
+	                android:text="Υπόλοιπα Στοιχεία"
+	                android:gravity="left" 
+	                android:textColor="#ffff00"/>
+	            <Button
+	                android:id="@+id/BuInfo"
+	            android:layout_height="match_parent"
+	            android:layout_width="wrap_content"
+	                android:textSize="18sp"
+	                android:text="Οδηγίες"
+	                android:gravity="left" 
+	                android:textColor="#ffff00" />
+	             </LinearLayout>
+</RelativeLayout>
+    

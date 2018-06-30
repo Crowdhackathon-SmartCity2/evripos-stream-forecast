@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+	android:id="@+id/AbsoluteLayout1" android:layout_width="wrap_content"
+	android:keepScreenOn="true" android:orientation="horizontal"
+	android:background="#003399" android:layout_height="wrap_content">
+
+	<FrameLayout android:id="@+id/frame" android:layout_width="match_parent"
+		android:layout_height="474dp">
+
+		<TextView android:id="@+id/Head1" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Copyright 2015 Chamalides Philippos"
+
+			android:textColor="#ffd000" android:textSize="15sp" />
+		<TextView android:id="@+id/Head2" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="E-Mail : Ph.Chamalides@gmail.com"
+			android:layout_marginTop="20dp" android:textColor="#ffd000"
+			android:textSize="15sp" />
+
+		<ScrollView android:id="@+id/scrollView1"
+			android:layout_width="match_parent" android:layout_height="match_parent"
+			android:layout_marginTop="40dp" android:scrollbars="vertical">
+
+			<TableLayout android:id="@+id/RHE" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+
+				<TableRow android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+					<TextView android:id="@+id/InsGr" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:gravity="left"
+						android:textSize="17sp"
+						android:text="Το φαινόμενο του πορθμού του Ευρίπου είναι γνωστό για την περιοδική αλλαγή των ρευμάτων κάθε περίπου έξι ώρες. 
+						Η βασική αιτία είναι οι παλιρροϊκές δυνάμεις της σελήνης άλλα και ο συνδυασμός τους με τις παλιρροϊκές δυνάμεις του ήλιου.
+Η εφαρμογή υπολογίζει την φορά του ρεύματος του Ευρίπου βασιζόμενη στην θέση του ήλιου και της σελήνης και στην σύνθεση των παλιρροϊκών τους δυνάμεων.
+ 	Υπολογίζει με ακρίβεια μίας μοίρας την θέση της σελήνης και με ακρίβεια περίπου δύο μοιρών την θέση του ήλιου, κατόπιν υπολογίζει σε ποιο γεωγραφικό μήκος βρίσκεται η μέγιστη παλίρροια και με μια στατιστική μελέτη υπολογίζει με ακρίβεια περίπου 20 λεπτών (όταν οι καιρικές συνθήκες είναι ομαλές) την φορά του ρεύματος, και τις αλλαγές του μέσα στο 24ωρο. 
+	Οι θέσεις της σελήνης (άσπρος κύκλος), του ήλιου (κίτρινος κύκλος) και του αντίποδα της σελήνης (μαύρος κύκλος) απεικονίζονται στον χάρτη.
+	Οι πράσινες και οι κόκκινες καμπύλες δείχνουν την πορεία και σε ένα βαθμό την ταχύτητα του ρεύματος όταν αυτές παίρνανε από την κίτρινη γραμμή.
+Η κίτρινη γραμμή έχει τις συντεταγμένες τις Χαλκίδας. Η κόκκινη καμπύλη δείχνει την φορά από νότο προς βορρά και η πράσινη την φορά από βορρά προς νότο.
+	Επίσης πάνω από τον χάρτη φαίνονται και οι υπολογιζόμενες ώρες των αλλαγών της φοράς του ρεύματος.
+Επίσης πατώντας στο πλαίσιο «Υπόλοιπα Στοιχεία» δίνονται πληροφορίες για την φαινόμενη θέση του ήλιου και της σελήνης όπως την κλίση τους ως προς τον ορίζοντα (Απόκλιση) και την θέση τους σε σχέση με τον βορρά (Αζιμούθιο) , την ώρα ανατολής και δύσης και τις ημερομηνίες των κυριότερων φάσεων της σελήνης.
+Με τα πλαίσια «Ρύθμιση Ημερομηνίας» και «Ρύθμιση Ώρας» επιλέγουμε ημερομηνία και ώρα.
+	Το πρόγραμμα βασίζεται μόνο στην αστρονομική παλίρροια που προκαλούν η σελήνη και ο ήλιος, όμως το ρεύμα του Ευρίπου επηρεάζεται και σε ένα βαθμό από τις καιρικές συνθήκες οπότε ξαφνικές ολιγόλεπτες αλλαγές της φοράς, ειδικά στις ημέρες μεταξύ των τετάρτων της σελήνης είναι πιθανές. Επίσης της ημέρες αυτές οι ώρες αλλαγής μπορεί να εμφανίσουν μεγάλη απόκλιση 
+	Επίσης οι θεωρητική πρόβλεψη των αλλαγών του ρεύματος που δίνει το πρόγραμμα είναι για εκπαιδευτικούς και πειραματικούς σκοπούς.
+"
+						android:textColor="#ffff00" />
+
+
+
+				</TableRow>
+				<TableRow android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+
+					<TextView android:id="@+id/InsEng" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:gravity="left"
+						android:textSize="17sp"
+						android:text="
+       In Evripos strait, the water stream changing nearly every six hours, and depends mostly on Moon and the tide it causes. The application is calculating, the moon and sun geographical, position and trying to calculate the tide that their attractive forces create. 
+Then using a statistical study on the stream, it finds the times in the day that stream change trend. On map it shows the positions of the moon (white circle), of the sun (yellow circle) and the antipode of the moon (black circle). Also gives the geographical coordinates.
+The red and green curves follow the sun and the moon and give the trend of the stream when those passing from the yellow line that is on Chalcis coordinates. The red curve represents straight from South to North and green curve from North to South. Also you can change the date and hour by press the two button “change date” and “change time”
+The study, which this application is based on, is still continues so the result is just theoretical and experimental. Near the moons quarters the straight is more difficult to predict because the tide is short and the straight is affected more from the weather conditions."
+
+
+
+						android:textColor="#ffff00" />
+
+
+				</TableRow>
+
+
+			</TableLayout>
+		</ScrollView>
+	</FrameLayout>
+
+
+</RelativeLayout>

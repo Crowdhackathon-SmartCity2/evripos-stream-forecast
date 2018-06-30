@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="wrap_content"
+    android:keepScreenOn="true"
+            android:layout_height="wrap_content"
+            >"
+
+   
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_y="15dp"
+            
+            android:scrollbars="vertical" >
+
+            <TableLayout
+                android:id="@+id/RHE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+<EditText
+    android:id="@+id/SYSTIMA0"
+
+    android:editable="false"
+    android:clickable="false"
+    android:height="35dp"
+    android:width="220dp" >
+
+</EditText>
+
+<EditText
+    android:id="@+id/STILES0"
+ android:editable="false"
+ android:clickable="false"
+    android:height="35dp"
+     android:width="55dp" >
+
+</EditText>
+
+<EditText
+    android:id="@+id/POLSYSTIM0"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+                                android:editable="false"
+                            android:clickable="false"
+    android:height="35dp"
+      android:width="55dp" >
+
+</EditText>
+
+<EditText
+    android:id="@+id/SYNSTILES0"
+    android:layout_width="wrap_content"
+                                android:editable="false"
+                            android:clickable="false"
+    android:height="35dp"
+     android:width="55dp" >
+
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON0"
+                                                    android:editable="false"
+                            android:clickable="false"
+                        android:height="35dp"
+                         android:width="55dp" >
+</EditText>
+
+</TableRow>
+                
+ <TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA1"
+                                                    android:editable="false"
+                            android:clickable="false"
+                        android:height="35dp"
+                          android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES1"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM1"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES1"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON1"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        
+   
+                        android:width="55dp" >
+</EditText>
+
+</TableRow>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA2"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES2"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM2"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES2"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON2"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+ <TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA3"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES3"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM3"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES3"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON3"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+<TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA4"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES4"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM4"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES4"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON4"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+ <TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA5"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES5"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM5"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES5"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON5"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+<TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA6"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES6"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM6"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES6"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON6"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+ <TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA7"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES7"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM7"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES7"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON7"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+<TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA8"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES8"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM8"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES8"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON8"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+ <TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA9"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES9"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM9"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES9"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON9"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+<TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA10"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES10"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM10"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES10"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON10"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+ <TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA11"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES11"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM11"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES11"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON11"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+<TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA12"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES12"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM12"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES12"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON12"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+<TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA13"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES13"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM13"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES13"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON13"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+<TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA14"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES14"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM14"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES14"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON14"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+<TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA15"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES15"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM15"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES15"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON15"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+<TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA16"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES16"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM16"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES16"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON16"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+
+<TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA17"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES17"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM17"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES17"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON17"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+<TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA18"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES18"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM18"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES18"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON18"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+<TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA19"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES19"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM19"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES19"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON19"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+<TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA20"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES20"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM20"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES20"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON20"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+<TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA21"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES21"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM21"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES21"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON21"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+<TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA22"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES22"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM22"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES22"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON22"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+<TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA23"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES23"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM23"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES23"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON23"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+<TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA24"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES24"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM24"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES24"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON24"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+<TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA25"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES25"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM25"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES25"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON25"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+<TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA26"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES26"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM26"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES26"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON26"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+<TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA27"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="220dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES27"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM27"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES27"
+                           android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+
+<EditText
+                        android:id="@+id/WINSTILON27"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+
+                        android:width="55dp" >
+</EditText>
+</TableRow>
+<TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA28"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES28"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM28"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES28"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON28"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+</TableRow>
+<TableRow android:layout_height="wrap_content" >
+
+<EditText
+                        android:id="@+id/SYSTIMA29"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/STILES29"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/POLSYSTIM29"
+                         android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/SYNSTILES29"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+<EditText
+                        android:id="@+id/WINSTILON29"
+                        android:height="35dp"
+                        android:inputType="numberDecimal" android:editable="false" android:clickable="false"
+                        android:width="35dp" >
+</EditText>
+
+</TableRow>
+
+                            </TableLayout>
+        </ScrollView>
+ 
+    
+    
+    
+<TextView
+        android:id="@+id/Head1"
+        android:layout_width="155dp"
+        android:layout_x="20dp"
+        android:layout_height="35dp"
+        android:text="ΗΜΕΡΟΜΗΝΙΑ"
+        android:textColor="#003399"
+        android:textSize="15dp" />
+<TextView
+        android:id="@+id/Head2"
+        android:layout_width="55dp"
+        android:layout_height="35dp"
+        android:layout_x="222dp"
+        android:text="Β->Ν"
+       android:textColor="#003399"
+        android:textSize="15dp" />
+<TextView
+        android:id="@+id/Head3"
+        android:layout_width="55dp"
+        android:layout_height="35dp"
+        android:layout_x="280dp"
+        android:text="Ν->Β"
+        android:textColor="#003399"
+        android:textSize="15dp" />
+<TextView
+        android:id="@+id/Head4"
+        android:layout_width="55dp"
+        android:layout_x="335dp"
+        android:layout_height="35dp"
+        android:text="Β->Ν"
+       android:textColor="#003399"
+        android:textSize="15dp" />
+
+<TextView
+    android:id="@+id/Head5"
+        android:layout_width="55dp"
+        android:layout_height="35dp"
+        android:layout_x="390dp"
+    android:text="Ν->Β"
+    android:textColor="#003399"
+    android:textSize="15dp" />
+           
+  </AbsoluteLayout>

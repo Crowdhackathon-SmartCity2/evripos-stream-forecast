@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/PhaseLayout1"
+    android:layout_width="match_parent"
+    android:keepScreenOn="true"
+    android:background="#003399"
+    android:layout_height="match_parent">
+   
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:scrollbars="vertical" >
+<TableLayout
+    android:id="@+id/RHE"
+    android:layout_width="match_parent"
+	android:gravity="center"
+    android:layout_height="wrap_content" >
+
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<TextView
+    android:text="ΚΥΡΙΟΤΕΡΕΣ ΦΑΣΕΙΣ ΤΗΣ ΣΕΛΗΝΗΣ"
+        android:textStyle="bold"
+    android:editable="false"
+    android:gravity="center"
+    android:textSize="20dp"
+    android:clickable="false"
+    android:textColor="#ffff00"
+    android:layout_width="match_parent">   
+</TextView>
+</TableRow>
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<TextView
+    android:id="@+id/New1"
+    android:editable="false"
+    android:gravity="center"
+    android:clickable="false"
+      android:textSize="18dp"
+    android:textColor="#ffff00"
+    android:layout_width="match_parent">   
+</TextView>
+</TableRow>
+                
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<TextView
+    android:id="@+id/Q1o"
+    android:editable="false"
+    android:clickable="false"
+       android:gravity="center"
+    android:textColor="#ffff00"
+     android:textSize="18dp"
+    android:layout_width="match_parent">
+</TextView>
+</TableRow>
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<TextView
+    android:id="@+id/Full"
+    android:editable="false"
+    android:clickable="false"
+       android:gravity="center"
+        android:textSize="18dp"
+    android:textColor="#ffff00"
+    android:layout_width="match_parent">
+</TextView>
+</TableRow>
+<TableRow
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content" >
+<TextView
+    android:id="@+id/Q2o"
+    android:editable="false"
+    android:clickable="false"
+       android:gravity="center"
+        android:textSize="18dp"
+    android:textColor="#ffff00"
+   android:layout_width="match_parent">
+</TextView>
+</TableRow>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<TextView
+    android:id="@+id/New2"
+    android:editable="false"
+    android:clickable="false"
+       android:gravity="center"
+        android:textSize="18dp"
+    android:textColor="#ffff00"
+     android:layout_width="match_parent">
+</TextView>
+</TableRow>
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<TextView
+    android:id="@+id/Angle"
+    android:editable="false"
+    android:clickable="false"
+       android:gravity="center"
+        android:textSize="18dp"
+    android:textColor="#ffff00"
+     android:layout_width="match_parent">
+</TextView>
+</TableRow>
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<TextView
+    android:text="ΣΕΛΗΝΗ :"
+    android:editable="false"
+    android:gravity="center"
+    android:textSize="20dp"
+    android:clickable="false"
+    android:textStyle="bold"
+    android:textColor="#ffff00"
+    android:layout_width="match_parent">   
+</TextView>
+</TableRow>
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<TextView
+    android:id="@+id/MoonRiseSet"
+    android:editable="false"
+    android:clickable="false"
+       android:gravity="center"
+        android:textSize="18dp"
+    android:textColor="#ffff00"
+     android:layout_width="match_parent">
+</TextView>
+</TableRow>
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<TextView
+    android:id="@+id/MoonDist"
+    android:editable="false"
+    android:clickable="false"
+       android:gravity="center"
+        android:textSize="18dp"
+    android:textColor="#ffff00"
+     android:layout_width="match_parent">
+</TextView>
+</TableRow>
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<TextView
+    android:id="@+id/MoonAlt"
+    android:editable="false"
+    android:clickable="false"
+       android:gravity="center"
+        android:textSize="18dp"
+    android:textColor="#ffff00"
+     android:layout_width="match_parent">
+</TextView>
+</TableRow>
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<TextView
+    android:id="@+id/MoonDecl"
+    android:editable="false"
+    android:clickable="false"
+       android:gravity="center"
+        android:textSize="18dp"
+    android:textColor="#ffff00"
+     android:layout_width="match_parent">
+</TextView>
+</TableRow>
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<TextView
+    android:text="ΗΛΙΟΣ :"
+    android:editable="false"
+    android:gravity="center"
+    android:textSize="20dp"
+    android:clickable="false"
+    android:textStyle="bold"
+    android:textColor="#ffff00"
+    android:layout_width="match_parent">   
+</TextView>
+</TableRow>
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<TextView
+    android:id="@+id/SunRiseSet"
+    android:editable="false"
+    android:clickable="false"
+       android:gravity="center"
+        android:textSize="18dp"
+    android:textColor="#ffff00"
+     android:layout_width="match_parent">
+</TextView>
+</TableRow>
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<TextView
+    android:id="@+id/SunDist"
+    android:editable="false"
+    android:clickable="false"
+       android:gravity="center"
+        android:textSize="18dp"
+    android:textColor="#ffff00"
+     android:layout_width="match_parent">
+</TextView>
+</TableRow>
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<TextView
+    android:id="@+id/SunAlt"
+    android:editable="false"
+    android:clickable="false"
+       android:gravity="center"
+        android:textSize="18dp"
+    android:textColor="#ffff00"
+     android:layout_width="match_parent">
+</TextView>
+</TableRow>
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<TextView
+    android:id="@+id/SunDecl"
+    android:editable="false"
+    android:clickable="false"
+       android:gravity="center"
+        android:textSize="18dp"
+    android:textColor="#ffff00"
+     android:layout_width="match_parent">
+</TextView>
+</TableRow>
+</TableLayout>
+</ScrollView>
+           
+</AbsoluteLayout>
